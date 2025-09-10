@@ -7,3 +7,5 @@ console.log(typeof string);
 console.log(typeof number);
 console.log(typeof object);
 console.log(typeof undefined);
+console.log("edited");
+console.log("sanskar");
