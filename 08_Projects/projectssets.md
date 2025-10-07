@@ -70,4 +70,19 @@ form.addEventListener('submit',function(e){
   }
   
 });
+
+```
+## project 3 solution
+
+```javascript
+const clock = document.getElementById('clock')
+//we can use it 
+//const clock = document.querySelector('#clock')
+
+setInterval(function(){
+  let data = new Date();
+  //console.log(data.toLocaleTimeString());
+  clock.innerHTML = data.toLocaleTimeString();
+}, 1000)
+
 ```
